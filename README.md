@@ -28,5 +28,5 @@ The `FLASK_APP` environment variable **can** be indicated in the .env file, but 
 
 7) Visit the `/reset` route to generate the `db.sqlite3` file/
 
-[127.0.0.1:5000](http://127.0.0.1:5000)
+[127.0.0.1:5000/reset](http://127.0.0.1:5000/reset)
 
