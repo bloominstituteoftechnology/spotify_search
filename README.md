@@ -1,8 +1,8 @@
 # spotify_search
 
-Startup Instructions
+### Startup Instructions
 
-1) Clone the repository abd change directories to the outer project folder 
+1) Clone the repository and change directories to the outer project folder:
 
 `cd spotify_search`
 
@@ -22,9 +22,9 @@ Startup Instructions
 
 `FLASK_APP=app.py flask run`
 
-The `FLASK_APP` environment variable **can** be indicated in the .env file, but we have chosen **not** to do that for this app so that the student's actions in starting up the app will better match the process they will be following on the Sprint Challenge.
+The `FLASK_APP` environment variable **can** be indicated in the .env file, but we have chosen **not** to do that for this app so that the student's actions in starting up the app will more closely match the process they will be following on the Sprint Challenge.
 
-6) Contrary to best practices, this solution app *does* include a `.env` file with active API Keys. This is to make it easier for the instructor to show the learners working version of the app. Learners will need to create their own `.env` file and obtain [API keys from Spotify.](https://developer.spotify.com/dashboard/login)  
+6) Contrary to best practices, this solution app **does** include a `.env` file with active API Keys. This is to make it easier for the instructor to show the learners a working version of the app. Learners will need to create their own `.env` file and obtain [API keys from Spotify.](https://developer.spotify.com/dashboard/login)  
 
 7) Visit the `/reset` route to generate the `db.sqlite3` file.
 
