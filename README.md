@@ -26,7 +26,7 @@ The `FLASK_APP` environment variable **can** be indicated in the .env file, but 
 
 6) Contrary to best practices, this solution app *does* include a `.env` file with active API Keys. This is to make it easier for the instructor to show the learners working version of the app. Learners will need to create their own `.env` file and obtain [API keys from Spotify.](https://developer.spotify.com/dashboard/login)  
 
-7) Visit the `/reset` route to generate the `db.sqlite3` file/
+7) Visit the `/reset` route to generate the `db.sqlite3` file.
 
 [127.0.0.1:5000/reset](http://127.0.0.1:5000/reset)
 
